@@ -1,78 +1,161 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif!important;
 }
 
 hr{
     border-top: 1px solid lightgray;
 }
 
-.marginsuperior26{
-    margin-top: 26px;
+.margen-superior20{
+    margin-top: 20px;
 }
+
+
 .container{
     background-color: #e4f1f5;
-    width:100vw;
-    height: 100vh;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 50px;
-
+    width: 100vw;
+    height: 100vh;
 }
 
 .displayflex{
     display: flex;
+    
+   
 }
 
 .displayflexcolumna{
     display: flex;
     flex-direction: column;
+   
 }
-
 .spacebetween{
     justify-content: space-between;
 }
 
-.botton{
-    background-color: red;
-    color: white;
-    border-radius: 15px;
-    padding: 15px 15px 15px 15px;
-    cursor: pointer;
-    border: 1px solid red;
-    transition: 0.4s;
-}
-.fuenteh1{
-    font-weight: 300;
-}
 .fuente{
- font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif!important;
+}
+
+.fuente-h1{
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .fuente-boton{
-  font-weight: 700;  
+    font-weight: 600;
 }
 
 .margen-izquierdo-15{
     margin-left: 15px;
+
 }
 
-.botton:hover{
-    background-color:white;
-    color:red;
-    border-radius: 15px;
-    padding: 15px 15px 15px 15px;
-    cursor: pointer;
+.margen-superior20{
+    margin-top: 20px;
+}
+
+.boton{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px 12px 20px;
     border: 1px solid red;
+    cursor: pointer;
+    font-size: 14px;
+}
+.boton2{
+    cursor: pointer;
+}
+.boton2:hover{
+    color: red;
+    transition: 0.3s;
+}
+.boton:hover{
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    padding: 10px 25px 12px 20px;
+    border: 1px solid red;
+    cursor: pointer;
+    font-size: 14px;
     transition: 0.4s;
 }
 
-.card{
-    background-color: ghostwhite;
-    border-radius: 25px;
-    border: 1px solid gray;
-    width: 20%;
-    height: 170px;
+.ancho25{
+    width: 25%; 
 }
 
+.card{
+    background-color: #FEFEFE;
+    border: 1px solid gray;
+    border-radius: 15px;
+    
+    height: 170px;
+    padding-left: 10px;
+}
+
+header{
+    font-size: 15px;
+}
+.imagen-rex{
+    max-width: 25%;
+
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    font-size: 16px;
+}
+.color-flecha{
+    color: red;
+}
+.margen-flecha{
+    margin-left: 5px;
+}
+.margen-superior10{
+    margin-top: 10px;
+}
+
+
+
+footer{
+    font-size: 12px;
+}
+
+.margen-superior15{
+    margin-top: 15px;
+}
+.margen-superior30{
+    margin-top: 35px;
+}
+.imagen-digital{
+    max-width: 70%;
+
+}
+
+.imagen-center{
+    max-width: 25%;
+}
+
+.card-sorpresa{
+    background-color: #FEFEFE;
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: 340px;
+    padding-left: 10px;
+}
+
+.porcentaje{
+    font-size: 80px;
+}
